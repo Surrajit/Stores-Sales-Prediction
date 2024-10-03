@@ -1,0 +1,54 @@
+columns:
+  - Item_Identifier: category
+  - Item_Weight: int
+  - Item_Fat_Content: category
+  - Item_Visibility: int
+  - Item_Type: category
+  - Item_MRP: int
+  - Outlet_Identifier: category
+  - Outlet_Establishment_Year: int
+  - Outlet_Size: category
+  - Outlet_Location_Type: category
+  - Outlet_Type: category
+  - Item_Outlet_Sales: int
+  
+
+numerical_columns:
+  - Item_Weight
+  - Item_Visibility
+  - Item_MRP
+  - Outlet_Establishment_Year
+  - Item_Outlet_Sales
+
+categorical_columns:
+  - Item_Identifier
+  - Item_Fat_Content
+  - Item_Type
+  - Outlet_Identifier
+  - Outlet_Size
+  - Outlet_Location_Type
+  - Outlet_Type
+
+
+drop_columns:
+  - Item_Identifier
+  - Outlet_Establishment_Year
+
+# for data transformation
+num_features:
+  - Item_Weight
+  - Item_Visibility
+  - Item_MRP
+
+or_columns:
+  - Outlet_Location_Type
+  - Outlet_Size
+
+oh_columns:
+  - Item_Fat_Content
+  - Item_Type
+  - Outlet_Identifier
+  - Outlet_Type
+
+transform_columns:
+  - Item_Visibility3
