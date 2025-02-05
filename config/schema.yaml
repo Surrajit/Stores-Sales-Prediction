@@ -32,13 +32,18 @@ categorical_columns:
 
 drop_columns:
   - Item_Identifier
-  - Outlet_Establishment_Year
+  - Outlet_Identifier
+
+
+
+
 
 # for data transformation
 num_features:
   - Item_Weight
   - Item_Visibility
   - Item_MRP
+ 
 
 or_columns:
   - Outlet_Location_Type
@@ -47,8 +52,11 @@ or_columns:
 oh_columns:
   - Item_Fat_Content
   - Item_Type
-  - Outlet_Identifier
   - Outlet_Type
 
 transform_columns:
-  - Item_Visibility3
+  - Item_Visibility
+  - Item_Outlet_Sales
+  
+
+

@@ -23,8 +23,15 @@ print(mongo_db_url)
 
 
 '''
-from src.pipline.training_pipeline import TrainPipeline
+
+import os
+import sys
+from src.pipeline.training_pipeline import TrainPipeline  
+
 
 obj = TrainPipeline()
 obj.run_pipeline()
+
+
+
 
