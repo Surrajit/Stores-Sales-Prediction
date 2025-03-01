@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/SURRAJIT/ML_PROJECT/Stores Sales Prediction/mlruns/849221614979008480/7423bc897975461c83377abb32e7996d/artifacts
+end_time: 1740654745030
+entry_point_name: ''
+experiment_id: '849221614979008480'
+lifecycle_stage: active
+run_id: 7423bc897975461c83377abb32e7996d
+run_name: magnificent-bug-279
+run_uuid: 7423bc897975461c83377abb32e7996d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740654739626
+status: 3
+tags: []
+user_id: narayan

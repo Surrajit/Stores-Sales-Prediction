@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/423223301745562243
+creation_time: 1740645136255
+experiment_id: '423223301745562243'
+last_update_time: 1740645136255
+lifecycle_stage: active
+name: BigMart_Sales_Prediction

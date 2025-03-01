@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/SURRAJIT/ML_PROJECT/Stores Sales Prediction/mlruns/849221614979008480/c3ea6da9a37a422fb33e4c7d2cd51516/artifacts
+end_time: 1740655151386
+entry_point_name: ''
+experiment_id: '849221614979008480'
+lifecycle_stage: active
+run_id: c3ea6da9a37a422fb33e4c7d2cd51516
+run_name: classy-jay-921
+run_uuid: c3ea6da9a37a422fb33e4c7d2cd51516
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740655145198
+status: 3
+tags: []
+user_id: narayan

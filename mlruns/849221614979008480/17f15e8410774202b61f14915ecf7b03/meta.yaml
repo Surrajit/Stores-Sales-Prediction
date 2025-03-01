@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/SURRAJIT/ML_PROJECT/Stores Sales Prediction/mlruns/849221614979008480/17f15e8410774202b61f14915ecf7b03/artifacts
+end_time: 1740646604299
+entry_point_name: ''
+experiment_id: '849221614979008480'
+lifecycle_stage: active
+run_id: 17f15e8410774202b61f14915ecf7b03
+run_name: grandiose-bear-173
+run_uuid: 17f15e8410774202b61f14915ecf7b03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740646598442
+status: 4
+tags: []
+user_id: narayan

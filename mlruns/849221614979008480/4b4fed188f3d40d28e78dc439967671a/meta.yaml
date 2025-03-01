@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/SURRAJIT/ML_PROJECT/Stores Sales Prediction/mlruns/849221614979008480/4b4fed188f3d40d28e78dc439967671a/artifacts
+end_time: 1740647513565
+entry_point_name: ''
+experiment_id: '849221614979008480'
+lifecycle_stage: active
+run_id: 4b4fed188f3d40d28e78dc439967671a
+run_name: smiling-koi-701
+run_uuid: 4b4fed188f3d40d28e78dc439967671a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740647506071
+status: 4
+tags: []
+user_id: narayan

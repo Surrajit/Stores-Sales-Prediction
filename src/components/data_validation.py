@@ -136,7 +136,9 @@ class DataValidation:
             data_validation_artifact = DataValidationArtifact(
                 validation_status=not bool(validation_error_msg.strip()),
                 message=validation_error_msg,
-                drift_report_file_path=self.data_validation_config.drift_report_file_path  
+                drift_report_file_path=self.data_validation_config.drift_report_file_path,
+                train_file_path=self.data_ingestion_artifact.train_file_path,
+                test_file_path=self.data_ingestion_artifact.test_file_path  
             )
 
             logging.info(f"Data Validation artifact: {data_validation_artifact}")

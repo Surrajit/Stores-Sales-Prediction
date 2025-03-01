@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/SURRAJIT/ML_PROJECT/Stores Sales Prediction/mlruns/849221614979008480/dd5e1f6b2c6e4026af3faf8ff3f89d4c/artifacts
+end_time: 1740726500003
+entry_point_name: ''
+experiment_id: '849221614979008480'
+lifecycle_stage: active
+run_id: dd5e1f6b2c6e4026af3faf8ff3f89d4c
+run_name: ridge
+run_uuid: dd5e1f6b2c6e4026af3faf8ff3f89d4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740726495575
+status: 3
+tags: []
+user_id: narayan

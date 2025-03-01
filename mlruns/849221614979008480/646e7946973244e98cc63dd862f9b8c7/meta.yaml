@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/SURRAJIT/ML_PROJECT/Stores Sales Prediction/mlruns/849221614979008480/646e7946973244e98cc63dd862f9b8c7/artifacts
+end_time: 1740654686094
+entry_point_name: ''
+experiment_id: '849221614979008480'
+lifecycle_stage: active
+run_id: 646e7946973244e98cc63dd862f9b8c7
+run_name: lasso
+run_uuid: 646e7946973244e98cc63dd862f9b8c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740654679349
+status: 3
+tags: []
+user_id: narayan

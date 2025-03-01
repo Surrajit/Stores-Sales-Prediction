@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/SURRAJIT/ML_PROJECT/Stores Sales Prediction/mlruns/849221614979008480/aab20d3f2c334c17a9869259cce2cbea/artifacts
+end_time: 1740726553796
+entry_point_name: ''
+experiment_id: '849221614979008480'
+lifecycle_stage: active
+run_id: aab20d3f2c334c17a9869259cce2cbea
+run_name: catboost
+run_uuid: aab20d3f2c334c17a9869259cce2cbea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740726544919
+status: 3
+tags: []
+user_id: narayan

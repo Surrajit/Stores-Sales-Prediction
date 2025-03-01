@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1740647973900
+current_stage: None
+description: ''
+last_updated_timestamp: 1740647973900
+name: BigMartSalesPredictor
+run_id: b766d60c7d2a4aa99aa1e6c99e88f848
+run_link: ''
+source: file:///D:/SURRAJIT/ML_PROJECT/Stores Sales Prediction/mlruns/849221614979008480/b766d60c7d2a4aa99aa1e6c99e88f848/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///D:/SURRAJIT/ML_PROJECT/Stores Sales Prediction/mlruns/849221614979008480/b766d60c7d2a4aa99aa1e6c99e88f848/artifacts/model
+user_id: null
+version: 4

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/SURRAJIT/ML_PROJECT/Stores Sales Prediction/mlruns/849221614979008480/4a56a3d442a94338a319afac8dc47a30/artifacts
+end_time: 1740726509794
+entry_point_name: ''
+experiment_id: '849221614979008480'
+lifecycle_stage: active
+run_id: 4a56a3d442a94338a319afac8dc47a30
+run_name: knn
+run_uuid: 4a56a3d442a94338a319afac8dc47a30
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740726505162
+status: 3
+tags: []
+user_id: narayan
