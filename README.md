@@ -1,63 +1,45 @@
-## Store Sales Prediction End to End Project Implementation
+# Big Mart Sales Prediction
+- An end-to-end machine learning project to predict sales for Big Mart stores using a Flask web app. This project showcases data ingestion, validation, transformation, model training, evaluation, and deployment, built with a modular pipeline.
 
-### Project Overview
-- This project implements a machine learning solution for predicting sales in BigMart stores. The system uses advanced ensemble methods and MLflow for experiment tracking, achieving robust sales predictions with high accuracy.
+## Project Overview
+- Using the [Big Mart Sales Prediction dataset](https://www.kaggle.com/datasets/shivan118/big-mart-sales-prediction-datasets) from Kaggle, this project predicts `Item_Outlet_Sales` based on features like `Item_Weight`, `Item_Fat_Content`, `Item_MRP`, and outlet details. The trained model is deployed via a Flask app for real-time predictions.
 
 ### Key Features
 
-- Automated ML pipeline with data validation and transformation 
-- Advanced feature engineering for retail domain
-- Ensemble modeling with multiple algorithms
-- MLflow integration for experiment tracking
-- Production-ready model deployment system
+- **Data Ingestion**: Loads and splits the dataset into train/test sets.
+- **Data Validation**: Ensures schema compliance and detects data drift with EvidentlyAI.
+- **Data Transformation**: Preprocesses numerical and categorical features.
+- **Model Training**: Trains a regression model (e.g., Random Forest).
+- **Model Evaluation**: Assesses performance with metrics like R².
+- **Deployment**: Flask app for interactive sales predictions.
 
-### Technical Architecture
-### Components
+## Tech Stack
+- **Python**: Core programming language.
+- **Scikit-learn**: Model training and preprocessing.
+- **Flask**: Web app deployment.
+- **Pandas/Numpy**: Data manipulation.
+- **EvidentlyAI**: Data drift detection.
+- **YAML**: Configuration management.
 
-### Data Ingestion
+## Setup Instructions
 
-- Handles data loading and train-test splitting
-- Implements data validation checks
-- Creates validated datasets for training
+1. Install dependencies:
 
-### Data Transformation
-
-- Feature engineering specific to retail domain
-- Handles missing values and outliers
-- Implements custom transformers for retail features
-
-### Model Training
-
-- Ensemble of Random Forest, XGBoost, LightGBM, and Gradient Boosting
-- Hyperparameter optimization using GridSearchCV
-- Weighted voting mechanism for final predictions
-
-### Model Evaluation
-
-- MLflow integration for experiment tracking
-- Comprehensive metric evaluation (RMSE, MAE, R²)
-- Model comparison with production baseline
-
-### Model Deployment
-
-- Model versioning and artifact management
-- Production model updates with validation
-- API serving capabilities
-
-### Performance Metrics
-
-- Training R² Score:  0.6518
-- Testing R² Score: 0.6145
-- RMSE: 
-- MAE: 
-
-### Deployment Guide
-### Local Deployment
-
-1. Setup Environment:
-
-- conda create -n venv python=3.8
-- conda activate venv
 - pip install -r requirements.txt
+
+2. Download the dataset from Kaggle and place Train.csv in data/.
+
+3. Run the pipeline:
+
+- python training_pipeline.py
+
+4. Launch the Flask app:
+
+- python app.py
+
+## Future Improvements
+- Deploy on AWS for a live demo.
+- Add hyperparameter tuning for better accuracy.
+- Enhance UI with CSS/JavaScript.
 
 
